@@ -1,0 +1,9 @@
+{
+  "name": "cutc-landing",
+  "version": "0.1.0",
+  "description": "cutc 15 landing page",
+  "dependencies": {
+    "express": "^4.10.7",
+    "jade": "^1.8.2"
+  }
+}

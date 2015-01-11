@@ -1,0 +1,181 @@
+*{
+    font-family: 'Roboto', sans-serif !important;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+}
+.header,.footer{
+    color:#fff;
+    min-height: 100%; 
+    max-height:1042px;
+}
+.header{
+    background-image:url(img/header.jpg);
+    background-attachment: fixed
+}
+.footer{
+    background-image:url(img/footer.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.brand-info{
+    margin-top:10px;
+    font-size: 1.3em;
+    font-weight: 100;
+    padding-left:17px;
+    border-left:1px solid #fff;
+}
+.branding .logo{
+    text-align: center;
+    padding-right:10px;
+}
+.branding{
+    padding:20px;
+}
+.headline{
+    margin-top:40px;
+    font-size: 2em;
+    text-align: center;
+
+}
+.headline .first-line{
+    font-weight: 100;
+    border-bottom:1px solid #fff;
+}
+.headline .second-line{
+    font-weight: 500;
+}
+.head-message{
+    font-size: 2em;
+}
+
+.action-button{
+    border: 5px solid #fff;
+    padding:15px 25px;
+
+}
+a.action-button{
+    text-decoration: none;
+}
+
+.action-button{
+    color:#fff;
+    text-decoration: none;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.action-button:hover{
+    background-color:#fff;
+    color:#555;
+}
+.header-action{
+    text-align: center;
+    font-size: 2em;
+    padding-top:50px;
+}
+.pride{
+    margin-top:50px;
+    font-size: 7em;
+    font-weight: 700;
+    text-align: center;
+}
+.middle-message{
+    margin-top:50px;
+    font-size: 3em;
+    font-weight: 300;
+    padding:0 5%;
+}
+.middle{
+    padding: 50px 0;
+    padding-bottom:100px;
+}
+
+.footer-message{
+    font-size: 5.5em;
+    text-align: center;
+    font-weight: 300;
+    margin-top:15%;
+    
+}
+
+.footer-message>span{
+    padding-bottom:100px;
+    border-bottom:1px solid #fff;
+}
+.footer-util{
+    margin-top:120px;
+    text-align: center;
+}
+.footer-date{
+    font-size: 2em;
+    font-weight: 300;
+}
+.footer-info{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.footer-util>span{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+
+@media (max-width: 970px) {
+  .pride {
+    font-size: 4em;
+  }
+  .footer-date{
+    display: block;
+    margin-bottom:40px;
+  }
+  .middle-message{
+    font-size: 2em;
+    padding:0 10%
+  }
+  .footer-message{
+    font-size: 4em;
+    border:0;
+  }
+}
+
+@media (max-width: 600px){
+    .pride {
+    font-size: 2em;
+    }
+    .header .action-button{
+        font-size: 0.5em
+    }
+    .head-message{
+        font-size: 1.5em;
+    }
+    .footer-message>span{
+        border:0;
+    }
+    .footer .action-button{
+        display: block;
+        margin:20px;
+    }
+    .footer{
+        padding:40px;
+    }
+
+    .footer-date{
+        border-top:1px solid #fff;
+        padding-top:20px;
+     }
+     .footer-util{
+
+        margin-top:50px;
+     }
+
+}
