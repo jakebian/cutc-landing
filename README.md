@@ -8,14 +8,14 @@ Getting Started
 
 1. Clone this repo:
 	
-	git clone https://github.com/jakebian/cutc-landing.git
+    git clone https://github.com/jakebian/cutc-landing.git
 
 2. Install dependencies: `
 
-	npm install
+    npm install
 
 3. Run the app: 
 	
-	node app.js
+    node app.js
 
 App should now be running on localhost:3000, you can customize the port in app.js.
